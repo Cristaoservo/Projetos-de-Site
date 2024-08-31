@@ -1,0 +1,243 @@
+@charset 'UTF-8';
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 1);
+}
+
+header{
+  display: flex;
+  flex: auto;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to right, rgba(173, 89, 89, 1), rgba(53, 48, 173, 1));
+  
+}
+
+.titulo{
+  color: white;
+  margin: auto;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.70);
+}
+
+.barra{
+  position: absolute;
+  display: flex;
+  top: 3px;
+  right: 4px;
+  padding: 1px 0 4px 1.5px;
+  background-color: #1929D961;
+  height: 22px;
+  border-radius: 7px 0 0 7px;
+  cursor: pointer;
+}
+
+#pesquisar{
+  height: 25px;
+  background: none;
+  border-radius: 5.5px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.44);
+  border: none;
+}
+
+#pesquisar:hover{
+  background-color: #4371E4B8;
+  color: white;
+}
+
+#burguer{
+  display: flex;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+#burguer > span{
+  font-size: 35px;
+}
+
+.burguer-ul{
+  list-style-type: none;
+  height: 100vh;
+  width: 30vw;
+  background-color: rgba(0, 0, 0, 0.56);
+  margin: 7px auto;
+  display: none;
+}
+
+.burguer-ul > li > a{
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.44);
+  display: block;
+  
+}
+
+.links{
+  position: absolute;
+  top: 81px;
+  right: 0;
+}
+
+.links > a{
+  text-decoration: none;
+  color: rgba(210, 210, 210, 1);
+  margin: 0 5px 0 15px;
+  padding: 3px 5px 0 5px;
+  background-color: rgba(79, 135, 237, 0.7);
+  border-radius: 10px 10px 0 0;
+  text-shadow: 1px 1px 01px rgba( 0, 0, 0, 0.30);
+  cursor: pointer;
+}
+
+a:hover{
+  color: rgba(12, 94, 243, 0.7);
+  background-color:rgba(0, 24, 169, 0.7);
+  text-decoration: underline;
+  transition: .3s ease-out;
+}
+
+main{
+  background-color: rgba(66, 114, 130, 0.27);
+  height: 1000px;
+  width: 100vw;
+}
+
+.caixa{
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 300px;
+}
+
+.caixa > section > span{
+  font-size: 60px;
+}
+
+#seta-esquerda{
+  position: absolute;
+  top: 210px;
+  left: 10px;
+  color: white;
+}
+
+#seta-direita{
+  position: absolute;
+  top: 210px;
+  right: 10px;
+  color: white;
+}
+
+.tela{
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.galax{
+  color: white;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.bloco{
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+}
+
+.caixa-img{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.loja-1{
+  display: flex;
+  background-color: #000000;
+  height: 100px;
+  width: 90%;
+  align-items: center;
+}
+
+.loja-2{
+  display: flex;
+  background-color: #000000;
+  height: 100px;
+  width: 90%;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.loja-3{
+  display: flex;
+  background-color: #000000;
+  height: 100px;
+  width: 90%;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.loja-4{
+  display: flex;
+  background-color: #000000;
+  height: 100px;
+  width: 90%;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.loja-5{
+  display: flex;
+  background-color: #000000;
+  height: 100px;
+  width: 90%;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.caixa-img div > img{
+  height: 80px;
+  width: 100px;
+}
+
+.letr{
+  display: flex;
+  color: white;
+  font-size: 17px;
+  align-items: center;
+  padding: 7px;
+  text-shadow: 1 1 1 rgba(255, 255, 255, 0.76);
+}
+
+.caixa-img h2{
+  color: rgba(254, 221, 21, 1);
+  font-size: 17px;
+}
+
+.letr > img{
+  height: 40px;
+  width: 50px;
+}
+
+footer{
+  width: 100vw;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.86);
+  padding: 7px 0;
+}
+
+footer > p{
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.54);
+}
